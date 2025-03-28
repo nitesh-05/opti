@@ -1,0 +1,80 @@
+#login-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    animation: fadeInOut 15s infinite;
+}
+
+.server-instance-container {
+    margin-top: 15px; /* Adjust this value to move it further down */
+  }
+
+  .forgot-password {
+    text-align: center;
+    margin-top: 15px; /* Adjust for spacing */
+  }
+  
+  .forgot-password a {
+    color: #ff0000; /* Link color */
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+
+@keyframes fadeInOut {
+    0%, 100% {
+        background-image: url('../images/image1.png'); /* Replace with your first image URL */
+    }
+    33% {
+        background-image: url('../images/image2.jpg'); /* Replace with your second image URL */
+    }
+    67% {
+        background-image: url('../images/image3.jpg'); /* Replace with your third image URL */
+    }
+}
+
+.login-box {
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-box img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+}
+
+.password-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-input input {
+    padding-right: 2rem;
+  }
+  
+  .password-input span {
+    position: absolute;
+    right: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #888;
+  }

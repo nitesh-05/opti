@@ -1,0 +1,65 @@
+
+.tDnD_whileDrag {
+    /*z-index: 500;*/
+    /*width: 90%;*/
+    /*margin: -10px;*/
+    /*display: table-cell;*/
+    /*color: transparent;*/
+    /*width: 0px*/
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.tDnD_whileDrag td {
+    background-color: #EDFCF1;
+    /*-webkit-box-shadow: 11px 5px 12px 2px #333, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;*/
+    -webkit-box-shadow: 6px 3px 5px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;
+    /*-moz-box-shadow: 6px 4px 5px 1px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;*/
+    /*-box-shadow: 6px 4px 5px 1px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;*/
+}
+/*.tDnD_whileDrag td:first-child {*/
+    /*-webkit-box-shadow: 5px 4px 5px 1px #111, 0 1px 0 #ccc inset, 1px -1px 0 #ccc inset;*/
+    /*-moz-box-shadow: 6px 3px 5px 2px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset, 1px 0 0 #ccc inset;*/
+    /*-box-shadow: 6px 3px 5px 2px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset, 1px 0 0 #ccc inset;*/
+/*}*/
+.tDnD_whileDrag td:last-child {
+    /*-webkit-box-shadow: 8px 7px 12px 0 #333, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;*/
+    -webkit-box-shadow: 1px 8px 6px -4px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset;
+    /*-moz-box-shadow: 0 9px 4px -4px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset, -1px 0 0 #ccc inset;*/
+    /*-box-shadow: 0 9px 4px -4px #555, 0 1px 0 #ccc inset, 0 -1px 0 #ccc inset, -1px 0 0 #ccc inset;*/
+}
+    /*-webkit-box-shadow:  0 0 40px white, 10px 10px 15px black;*/
+    /*-moz-box-shadow: 0 4px 2px -3px rgba(0, 0, 0, 0.5) inset;*/
+    /*-webkit-box-shadow: 0px 0px 40px 1px white, 0px 1px 1px 1px black;*/
+    /*box-shadow: 0 4px 2px -3px rgba(0, 0, 0, 0.5) inset;*/
+/*}*/
+/*.tDnD_whileDrag {*/
+    /*background-color: black;*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*-moz-box-shadow: 0px 0px 40px 1px white, 0px 1px 1px 1px black;*/
+    /*-webkit-box-shadow: 0px 0px 40px 1px white, 0px 1px 1px 1px black;*/
+    /*box-shadow:        0px 0px 40px 1px white, 0px 1px 1px 1px black ;*/
+    /*-webkit-box-shadow: 0 15px 10px -10px black, 0 1px 4px black, 0 0 10px darkgray inset;*/
+    /*-webkit-box-shadow: 0 15px 10px -10px black, 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+    /*-moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+    /*box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+    /*width: 90%;*/
+    /*height: 90%;*/
+    /*width: 100%;*/
+    /*overflow: visible;*/
+    /*z-index: 10000;*/
+    /*opacity: .4;*/
+    /*border-collapse: separate;*/
+    /*filter:Alpha(Opacity=50);*/
+    /*width: auto;*/
+
+/*}*/
+
+/*tr.alt td {*/
+    /*width:200px*/
+    /*-ms-transform:rotate(1deg;*/
+    /*-moz-transform: rotate(0deg);*/
+    /*-webkit-transform:rotate(0deg);*/
+    /*-o-transform:rotate(0deg);*/
+/*}*/

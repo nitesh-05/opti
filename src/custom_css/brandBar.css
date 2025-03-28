@@ -1,0 +1,108 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Brand Bar */
+.brand-bar {
+  width: 100%;
+  height: 40px; /* Increased height to fit larger logo */
+  background-color: rgb(226, 226, 228);
+  display: flex; /* Flexbox layout for alignment */
+  align-items: center; /* Vertically centers all items */
+  justify-content: space-between; /* Space between the left and right content */
+  padding: 0 20px; /* Adds horizontal spacing */
+  /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); Optional shadow */
+}
+
+/* Logo Container */
+.logo-div {
+  width: auto; /* Dynamically adjusts width based on logo size */
+  height: 40px; /* Matches the brand bar height */
+  display: flex; /* Flex layout for alignment */
+  align-items: center; /* Vertically centers the logo */
+  justify-content: flex-start; /* Aligns logo to the left */
+  padding-right: 20px; /* Optional spacing between logo and adjacent content */
+  overflow: visible;
+}
+
+/* Logo */
+.logo {
+  width: 80px; /* Increased logo width */
+  height: 40px; /* Increased logo height */
+  display: block; /* Ensures proper alignment inside flex container */
+}
+
+/* Co-Name */
+.co-name {
+    width: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center; /* Centers vertically */
+}
+
+/* Branding/Center Text */
+.opti-chain {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the text */
+    text-align: center;
+}
+
+/* Login User Section */
+.log-in-user {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligns content to the right */
+}
+
+/* User Icon */
+.log-in-user-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px; /* Adds spacing between icon and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes the icon circular */
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 12px 0;
+}
+
+/* Show Dropdown when parent has 'open' class */
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}

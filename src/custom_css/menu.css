@@ -1,0 +1,158 @@
+/* General Settings */
+.nav-tag {
+  height: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  align-items: baseline;
+}
+
+.header-parent {
+  border-bottom: solid 1px #cacdd0;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.logo {
+  height: 30px;
+}
+
+/* NAVIGATION */
+
+.header-nav-link {
+  text-decoration: none;
+  background: #00050a;
+  display: flex;
+  width: 80%;
+  height: 30px; /* Reduced height for menu item */
+  justify-content: center;
+  border-bottom: none;
+  border-radius: 1px;
+  margin-top: 0px;
+}
+
+.header-nav-link span {
+  display: block;
+  align-self: center;
+}
+
+.header-nav-options {
+  position: absolute;
+  height: 20px;
+  margin-top: 0%;
+  padding-top: 0%;
+  border-top: 0%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 100 !important;
+  display: block;
+  transition: all linear 0.1s;
+}
+
+/* Main Menu Item */
+.header-nav-div {
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  width: 200px; /* Fixed width for alignment */
+  height: 40px; /* Fixed height for consistency */
+  background: #fafafa; /* Background color */
+  border-radius: 1px;
+  padding: 0;
+  text-align: center;
+  position: relative; /* Required for positioning the dropdown */
+}
+
+/* Dropdown Container */
+.header-nav-ul {
+    position: absolute;
+    top: 200%; /* Position dropdown directly below the menu item */
+    left: 0%; /* Align dropdown with the left edge of the parent */
+    width: 100%; /* Match the width of the main menu */
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    margin-left: -4%; /*To align drop down menu left alignment with main menu*/
+    list-style: none;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); Optional: Add shadow for better visibility */
+     z-index: 1000;
+     /* display: none;   */
+}
+
+/* Show Dropdown on Hover */
+.header-nav-div:hover .header-nav-ul {
+    display: block; /* Show dropdown when the parent is hovered */
+}
+
+/* Dropdown Menu Item */
+.sub-menu-li {
+  width: 100%; /* Full width of the dropdown container */
+  height: 30px; /* Match height of the main menu */
+  background-color: #ffffff; /* Background color */
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #e0e1dd; /* Optional: Add separator lines */
+}
+
+/* Remove border for the last item */
+.sub-menu-li:last-child {
+  border-bottom: none;
+}
+
+/* Dropdown Links */
+.sub-menu-link {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Text color */
+  width: 100%; /* Full width of the dropdown item */
+  height: 100%; /* Full height of the dropdown item */
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: left; /* Horizontal alignment */
+  padding: 0;
+  padding-left: 5px;
+}
+
+/* Hover Effects */
+.header-nav-div:hover,
+.sub-menu-li:hover {
+  background-color: #cbcccc; /* Add hover effect for both main and dropdown items */
+}
+
+/* Main Navigation Styling */
+.main-nav {
+  display: flex;
+  list-style: none;
+  width: 200px; /* Match width with dropdown */
+  flex-direction: row; /* Horizontal layout for main menu */
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Content Styling */
+.main-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 2rem;
+}
+
+.heading {
+  color: #e4dede;
+}
+
+.arrow {
+  margin-left: auto;
+  padding-right: 5px;
+}

@@ -1,0 +1,886 @@
+
+ /* natesha 
+ green-haze,.green-jungle,.green-sharp
+ .blue-madison,.blue-chambray,blue-ebonyclay,.blue-hoki,blue-steel
+ 
+ */ 
+
+/***
+Green Haze
+***/
+/* Button */
+.green-haze.btn {
+  color: white;
+  background-color: #44b6ae;
+  border-color: "";
+}
+.green-haze.btn:hover, .green-haze.btn:focus, .green-haze.btn:active, .green-haze.btn.active {
+  color: white;
+  background-color: #399892;
+}
+.open .green-haze.btn.dropdown-toggle {
+  color: white;
+  background-color: #399892;
+}
+.green-haze.btn:active, .green-haze.btn.active {
+  background-image: none;
+}
+.open .green-haze.btn.dropdown-toggle {
+  background-image: none;
+}
+.green-haze.btn.disabled, .green-haze.btn.disabled:hover, .green-haze.btn.disabled:focus, .green-haze.btn.disabled:active, .green-haze.btn.disabled.active, .green-haze.btn[disabled], .green-haze.btn[disabled]:hover, .green-haze.btn[disabled]:focus, .green-haze.btn[disabled]:active, .green-haze.btn[disabled].active, fieldset[disabled] .green-haze.btn, fieldset[disabled] .green-haze.btn:hover, fieldset[disabled] .green-haze.btn:focus, fieldset[disabled] .green-haze.btn:active, fieldset[disabled] .green-haze.btn.active {
+  background-color: #44b6ae;
+}
+.green-haze.btn .badge {
+  color: #44b6ae;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.green-haze-stripe {
+  border-left: 3px solid #44b6ae;
+}
+
+/* Portlet */
+.portlet > .portlet-body.green-haze,
+.portlet.green-haze {
+  background-color: #44b6ae;
+}
+
+.portlet.solid.green-haze > .portlet-title,
+.portlet.solid.green-haze > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.green-haze > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.green-haze {
+  border: 1px solid #67c6bf;
+  border-top: 0;
+}
+.portlet.box.green-haze > .portlet-title {
+  background-color: #44b6ae;
+}
+.portlet.box.green-haze > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.green-haze > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.green-haze > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #93d7d2;
+  color: #a6deda;
+}
+.portlet.box.green-haze > .portlet-title > .actions .btn-default:hover, .portlet.box.green-haze > .portlet-title > .actions .btn-default:focus, .portlet.box.green-haze > .portlet-title > .actions .btn-default:active, .portlet.box.green-haze > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #b9e5e2;
+  color: #cbece9;
+}
+
+/* Statistic Block */
+.dashboard-stat.green-haze {
+  background-color: #44b6ae;
+}
+.dashboard-stat.green-haze .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.green-haze .details .number {
+  color: white;
+}
+.dashboard-stat.green-haze .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.green-haze .more {
+  color: white;
+  background-color: #3ea7a0;
+}
+
+/* General Element */
+.bg-green-haze {
+  border-color: #44b6ae !important;
+  background-image: none !important;
+  background-color: #44b6ae !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-green-haze {
+  color: #44b6ae !important;
+}
+/***
+Green Jungle
+***/
+/* Button */
+.green-jungle.btn {
+  color: white;
+  background-color: #26c281;
+  border-color: "";
+}
+.green-jungle.btn:hover, .green-jungle.btn:focus, .green-jungle.btn:active, .green-jungle.btn.active {
+  color: white;
+  background-color: #1fa06a;
+}
+.open .green-jungle.btn.dropdown-toggle {
+  color: white;
+  background-color: #1fa06a;
+}
+.green-jungle.btn:active, .green-jungle.btn.active {
+  background-image: none;
+}
+.open .green-jungle.btn.dropdown-toggle {
+  background-image: none;
+}
+.green-jungle.btn.disabled, .green-jungle.btn.disabled:hover, .green-jungle.btn.disabled:focus, .green-jungle.btn.disabled:active, .green-jungle.btn.disabled.active, .green-jungle.btn[disabled], .green-jungle.btn[disabled]:hover, .green-jungle.btn[disabled]:focus, .green-jungle.btn[disabled]:active, .green-jungle.btn[disabled].active, fieldset[disabled] .green-jungle.btn, fieldset[disabled] .green-jungle.btn:hover, fieldset[disabled] .green-jungle.btn:focus, fieldset[disabled] .green-jungle.btn:active, fieldset[disabled] .green-jungle.btn.active {
+  background-color: #26c281;
+}
+.green-jungle.btn .badge {
+  color: #26c281;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.green-jungle-stripe {
+  border-left: 3px solid #26c281;
+}
+
+/* Portlet */
+.portlet > .portlet-body.green-jungle,
+.portlet.green-jungle {
+  background-color: #26c281;
+}
+
+.portlet.solid.green-jungle > .portlet-title,
+.portlet.solid.green-jungle > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.green-jungle > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.green-jungle {
+  border: 1px solid #41da9a;
+  border-top: 0;
+}
+.portlet.box.green-jungle > .portlet-title {
+  background-color: #26c281;
+}
+.portlet.box.green-jungle > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.green-jungle > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.green-jungle > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #74e4b5;
+  color: #8ae8c1;
+}
+.portlet.box.green-jungle > .portlet-title > .actions .btn-default:hover, .portlet.box.green-jungle > .portlet-title > .actions .btn-default:focus, .portlet.box.green-jungle > .portlet-title > .actions .btn-default:active, .portlet.box.green-jungle > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #9feccc;
+  color: #b4f0d7;
+}
+
+/* Statistic Block */
+.dashboard-stat.green-jungle {
+  background-color: #26c281;
+}
+.dashboard-stat.green-jungle .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.green-jungle .details .number {
+  color: white;
+}
+.dashboard-stat.green-jungle .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.green-jungle .more {
+  color: white;
+  background-color: #23b176;
+}
+
+/* General Element */
+.bg-green-jungle {
+  border-color: #26c281 !important;
+  background-image: none !important;
+  background-color: #26c281 !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-green-jungle {
+  color: #26c281 !important;
+}
+
+/***
+Green Sharp
+***/
+/* Button */
+.green-sharp.btn {
+  color: white;
+  background-color: #4db3a2;
+  border-color: "";
+}
+.green-sharp.btn:hover, .green-sharp.btn:focus, .green-sharp.btn:active, .green-sharp.btn.active {
+  color: white;
+  background-color: #409788;
+}
+.open .green-sharp.btn.dropdown-toggle {
+  color: white;
+  background-color: #409788;
+}
+.green-sharp.btn:active, .green-sharp.btn.active {
+  background-image: none;
+}
+.open .green-sharp.btn.dropdown-toggle {
+  background-image: none;
+}
+.green-sharp.btn.disabled, .green-sharp.btn.disabled:hover, .green-sharp.btn.disabled:focus, .green-sharp.btn.disabled:active, .green-sharp.btn.disabled.active, .green-sharp.btn[disabled], .green-sharp.btn[disabled]:hover, .green-sharp.btn[disabled]:focus, .green-sharp.btn[disabled]:active, .green-sharp.btn[disabled].active, fieldset[disabled] .green-sharp.btn, fieldset[disabled] .green-sharp.btn:hover, fieldset[disabled] .green-sharp.btn:focus, fieldset[disabled] .green-sharp.btn:active, fieldset[disabled] .green-sharp.btn.active {
+  background-color: #4db3a2;
+}
+.green-sharp.btn .badge {
+  color: #4db3a2;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.green-sharp-stripe {
+  border-left: 3px solid #4db3a2;
+}
+
+/* Portlet */
+.portlet > .portlet-body.green-sharp,
+.portlet.green-sharp {
+  background-color: #4db3a2;
+}
+
+.portlet.solid.green-sharp > .portlet-title,
+.portlet.solid.green-sharp > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.green-sharp > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.green-sharp {
+  border: 1px solid #71c2b5;
+  border-top: 0;
+}
+.portlet.box.green-sharp > .portlet-title {
+  background-color: #4db3a2;
+}
+.portlet.box.green-sharp > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.green-sharp > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.green-sharp > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #9cd5cb;
+  color: #addcd4;
+}
+.portlet.box.green-sharp > .portlet-title > .actions .btn-default:hover, .portlet.box.green-sharp > .portlet-title > .actions .btn-default:focus, .portlet.box.green-sharp > .portlet-title > .actions .btn-default:active, .portlet.box.green-sharp > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #bfe4de;
+  color: #d1ebe7;
+}
+
+/* Statistic Block */
+.dashboard-stat.green-sharp {
+  background-color: #4db3a2;
+}
+.dashboard-stat.green-sharp .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.green-sharp .details .number {
+  color: white;
+}
+.dashboard-stat.green-sharp .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.green-sharp .more {
+  color: white;
+  background-color: #46a595;
+}
+
+/* General Element */
+.bg-green-sharp {
+  border-color: #4db3a2 !important;
+  background-image: none !important;
+  background-color: #4db3a2 !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-green-sharp {
+  color: #4db3a2 !important;
+}
+
+
+
+/***
+Blue Madison
+***/
+/* Button */
+.blue-madison.btn {
+  color: white;
+  background-color: #578ebe;
+  border-color: "";
+}
+.blue-madison.btn:hover, .blue-madison.btn:focus, .blue-madison.btn:active, .blue-madison.btn.active {
+  color: white;
+  background-color: #427aaa;
+}
+.open .blue-madison.btn.dropdown-toggle {
+  color: white;
+  background-color: #427aaa;
+}
+.blue-madison.btn:active, .blue-madison.btn.active {
+  background-image: none;
+}
+.open .blue-madison.btn.dropdown-toggle {
+  background-image: none;
+}
+.blue-madison.btn.disabled, .blue-madison.btn.disabled:hover, .blue-madison.btn.disabled:focus, .blue-madison.btn.disabled:active, .blue-madison.btn.disabled.active, .blue-madison.btn[disabled], .blue-madison.btn[disabled]:hover, .blue-madison.btn[disabled]:focus, .blue-madison.btn[disabled]:active, .blue-madison.btn[disabled].active, fieldset[disabled] .blue-madison.btn, fieldset[disabled] .blue-madison.btn:hover, fieldset[disabled] .blue-madison.btn:focus, fieldset[disabled] .blue-madison.btn:active, fieldset[disabled] .blue-madison.btn.active {
+  background-color: #578ebe;
+}
+.blue-madison.btn .badge {
+  color: #578ebe;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.blue-madison-stripe {
+  border-left: 3px solid #578ebe;
+}
+
+/* Portlet */
+.portlet > .portlet-body.blue-madison,
+.portlet.blue-madison {
+  background-color: #578ebe;
+}
+
+.portlet.solid.blue-madison > .portlet-title,
+.portlet.solid.blue-madison > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-madison > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-madison {
+  border: 1px solid #7ca7cc;
+  border-top: 0;
+}
+.portlet.box.blue-madison > .portlet-title {
+  background-color: #578ebe;
+}
+.portlet.box.blue-madison > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.blue-madison > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-madison > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #a8c4dd;
+  color: #bad1e4;
+}
+.portlet.box.blue-madison > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-madison > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-madison > .portlet-title > .actions .btn-default:active, .portlet.box.blue-madison > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #cdddec;
+  color: #dfeaf3;
+}
+
+/* Statistic Block */
+.dashboard-stat.blue-madison {
+  background-color: #578ebe;
+}
+.dashboard-stat.blue-madison .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.blue-madison .details .number {
+  color: white;
+}
+.dashboard-stat.blue-madison .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.blue-madison .more {
+  color: white;
+  background-color: #4884b8;
+}
+
+/* General Element */
+.bg-blue-madison {
+  border-color: #578ebe !important;
+  background-image: none !important;
+  background-color: #578ebe !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-blue-madison {
+  color: #578ebe !important;
+}
+/***
+Blue Chambray
+***/
+/* Button */
+.blue-chambray.btn {
+  color: white;
+  background-color: #2c3e50;
+  border-color: "";
+}
+.blue-chambray.btn:hover, .blue-chambray.btn:focus, .blue-chambray.btn:active, .blue-chambray.btn.active {
+  color: white;
+  background-color: #1e2a36;
+}
+.open .blue-chambray.btn.dropdown-toggle {
+  color: white;
+  background-color: #1e2a36;
+}
+.blue-chambray.btn:active, .blue-chambray.btn.active {
+  background-image: none;
+}
+.open .blue-chambray.btn.dropdown-toggle {
+  background-image: none;
+}
+.blue-chambray.btn.disabled, .blue-chambray.btn.disabled:hover, .blue-chambray.btn.disabled:focus, .blue-chambray.btn.disabled:active, .blue-chambray.btn.disabled.active, .blue-chambray.btn[disabled], .blue-chambray.btn[disabled]:hover, .blue-chambray.btn[disabled]:focus, .blue-chambray.btn[disabled]:active, .blue-chambray.btn[disabled].active, fieldset[disabled] .blue-chambray.btn, fieldset[disabled] .blue-chambray.btn:hover, fieldset[disabled] .blue-chambray.btn:focus, fieldset[disabled] .blue-chambray.btn:active, fieldset[disabled] .blue-chambray.btn.active {
+  background-color: #2c3e50;
+}
+.blue-chambray.btn .badge {
+  color: #2c3e50;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.blue-chambray-stripe {
+  border-left: 3px solid #2c3e50;
+}
+
+/* Portlet */
+.portlet > .portlet-body.blue-chambray,
+.portlet.blue-chambray {
+  background-color: #2c3e50;
+}
+
+.portlet.solid.blue-chambray > .portlet-title,
+.portlet.solid.blue-chambray > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-chambray > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-chambray {
+  border: 1px solid #3e5771;
+  border-top: 0;
+}
+.portlet.box.blue-chambray > .portlet-title {
+  background-color: #2c3e50;
+}
+.portlet.box.blue-chambray > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.blue-chambray > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-chambray > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #547698;
+  color: #5f83a7;
+}
+.portlet.box.blue-chambray > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-chambray > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-chambray > .portlet-title > .actions .btn-default:active, .portlet.box.blue-chambray > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #6f90b0;
+  color: #809cb9;
+}
+
+/* Statistic Block */
+.dashboard-stat.blue-chambray {
+  background-color: #2c3e50;
+}
+.dashboard-stat.blue-chambray .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.blue-chambray .details .number {
+  color: white;
+}
+.dashboard-stat.blue-chambray .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.blue-chambray .more {
+  color: white;
+  background-color: #253443;
+}
+
+/* General Element */
+.bg-blue-chambray {
+  border-color: #2c3e50 !important;
+  background-image: none !important;
+  background-color: #2c3e50 !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-blue-chambray {
+  color: #2c3e50 !important;
+}
+
+/***
+Blue Ebonyclay
+***/
+/* Button */
+.blue-ebonyclay.btn {
+  color: white;
+  background-color: #22313f;
+  border-color: "";
+}
+.blue-ebonyclay.btn:hover, .blue-ebonyclay.btn:focus, .blue-ebonyclay.btn:active, .blue-ebonyclay.btn.active {
+  color: white;
+  background-color: #141c25;
+}
+.open .blue-ebonyclay.btn.dropdown-toggle {
+  color: white;
+  background-color: #141c25;
+}
+.blue-ebonyclay.btn:active, .blue-ebonyclay.btn.active {
+  background-image: none;
+}
+.open .blue-ebonyclay.btn.dropdown-toggle {
+  background-image: none;
+}
+.blue-ebonyclay.btn.disabled, .blue-ebonyclay.btn.disabled:hover, .blue-ebonyclay.btn.disabled:focus, .blue-ebonyclay.btn.disabled:active, .blue-ebonyclay.btn.disabled.active, .blue-ebonyclay.btn[disabled], .blue-ebonyclay.btn[disabled]:hover, .blue-ebonyclay.btn[disabled]:focus, .blue-ebonyclay.btn[disabled]:active, .blue-ebonyclay.btn[disabled].active, fieldset[disabled] .blue-ebonyclay.btn, fieldset[disabled] .blue-ebonyclay.btn:hover, fieldset[disabled] .blue-ebonyclay.btn:focus, fieldset[disabled] .blue-ebonyclay.btn:active, fieldset[disabled] .blue-ebonyclay.btn.active {
+  background-color: #22313f;
+}
+.blue-ebonyclay.btn .badge {
+  color: #22313f;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.blue-ebonyclay-stripe {
+  border-left: 3px solid #22313f;
+}
+
+/* Portlet */
+.portlet > .portlet-body.blue-ebonyclay,
+.portlet.blue-ebonyclay {
+  background-color: #22313f;
+}
+
+.portlet.solid.blue-ebonyclay > .portlet-title,
+.portlet.solid.blue-ebonyclay > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-ebonyclay > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-ebonyclay {
+  border: 1px solid #344b60;
+  border-top: 0;
+}
+.portlet.box.blue-ebonyclay > .portlet-title {
+  background-color: #22313f;
+}
+.portlet.box.blue-ebonyclay > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.blue-ebonyclay > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-ebonyclay > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #496a88;
+  color: #527798;
+}
+.portlet.box.blue-ebonyclay > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-ebonyclay > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-ebonyclay > .portlet-title > .actions .btn-default:active, .portlet.box.blue-ebonyclay > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #5d83a7;
+  color: #6d90b0;
+}
+
+/* Statistic Block */
+.dashboard-stat.blue-ebonyclay {
+  background-color: #22313f;
+}
+.dashboard-stat.blue-ebonyclay .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.blue-ebonyclay .details .number {
+  color: white;
+}
+.dashboard-stat.blue-ebonyclay .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.blue-ebonyclay .more {
+  color: white;
+  background-color: #1b2732;
+}
+
+/* General Element */
+.bg-blue-ebonyclay {
+  border-color: #22313f !important;
+  background-image: none !important;
+  background-color: #22313f !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-blue-ebonyclay {
+  color: #22313f !important;
+}
+
+/***
+Blue Hoki
+***/
+/* Button */
+.blue-hoki.btn {
+  color: white;
+  background-color: #67809f;
+  border-color: "";
+}
+.blue-hoki.btn:hover, .blue-hoki.btn:focus, .blue-hoki.btn:active, .blue-hoki.btn.active {
+  color: white;
+  background-color: #566c88;
+}
+.open .blue-hoki.btn.dropdown-toggle {
+  color: white;
+  background-color: #566c88;
+}
+.blue-hoki.btn:active, .blue-hoki.btn.active {
+  background-image: none;
+}
+.open .blue-hoki.btn.dropdown-toggle {
+  background-image: none;
+}
+.blue-hoki.btn.disabled, .blue-hoki.btn.disabled:hover, .blue-hoki.btn.disabled:focus, .blue-hoki.btn.disabled:active, .blue-hoki.btn.disabled.active, .blue-hoki.btn[disabled], .blue-hoki.btn[disabled]:hover, .blue-hoki.btn[disabled]:focus, .blue-hoki.btn[disabled]:active, .blue-hoki.btn[disabled].active, fieldset[disabled] .blue-hoki.btn, fieldset[disabled] .blue-hoki.btn:hover, fieldset[disabled] .blue-hoki.btn:focus, fieldset[disabled] .blue-hoki.btn:active, fieldset[disabled] .blue-hoki.btn.active {
+  background-color: #67809f;
+}
+.blue-hoki.btn .badge {
+  color: #67809f;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.blue-hoki-stripe {
+  border-left: 3px solid #67809f;
+}
+
+/* Portlet */
+.portlet > .portlet-body.blue-hoki,
+.portlet.blue-hoki {
+  background-color: #67809f;
+}
+
+.portlet.solid.blue-hoki > .portlet-title,
+.portlet.solid.blue-hoki > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-hoki > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-hoki {
+  border: 1px solid #869ab3;
+  border-top: 0;
+}
+.portlet.box.blue-hoki > .portlet-title {
+  background-color: #67809f;
+}
+.portlet.box.blue-hoki > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.blue-hoki > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-hoki > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #acb9ca;
+  color: #bbc7d4;
+}
+.portlet.box.blue-hoki > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-hoki > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-hoki > .portlet-title > .actions .btn-default:active, .portlet.box.blue-hoki > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #cbd4de;
+  color: #dbe1e8;
+}
+
+/* Statistic Block */
+.dashboard-stat.blue-hoki {
+  background-color: #67809f;
+}
+.dashboard-stat.blue-hoki .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.blue-hoki .details .number {
+  color: white;
+}
+.dashboard-stat.blue-hoki .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.blue-hoki .more {
+  color: white;
+  background-color: #5e7694;
+}
+
+/* General Element */
+.bg-blue-hoki {
+  border-color: #67809f !important;
+  background-image: none !important;
+  background-color: #67809f !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-blue-hoki {
+  color: #67809f !important;
+}
+
+/***
+Blue Stell
+***/
+/* Button */
+.blue-steel.btn {
+  color: white;
+  background-color: #4b77be;
+  border-color: "";
+}
+.blue-steel.btn:hover, .blue-steel.btn:focus, .blue-steel.btn:active, .blue-steel.btn.active {
+  color: white;
+  background-color: #3b64a5;
+}
+.open .blue-steel.btn.dropdown-toggle {
+  color: white;
+  background-color: #3b64a5;
+}
+.blue-steel.btn:active, .blue-steel.btn.active {
+  background-image: none;
+}
+.open .blue-steel.btn.dropdown-toggle {
+  background-image: none;
+}
+.blue-steel.btn.disabled, .blue-steel.btn.disabled:hover, .blue-steel.btn.disabled:focus, .blue-steel.btn.disabled:active, .blue-steel.btn.disabled.active, .blue-steel.btn[disabled], .blue-steel.btn[disabled]:hover, .blue-steel.btn[disabled]:focus, .blue-steel.btn[disabled]:active, .blue-steel.btn[disabled].active, fieldset[disabled] .blue-steel.btn, fieldset[disabled] .blue-steel.btn:hover, fieldset[disabled] .blue-steel.btn:focus, fieldset[disabled] .blue-steel.btn:active, fieldset[disabled] .blue-steel.btn.active {
+  background-color: #4b77be;
+}
+.blue-steel.btn .badge {
+  color: #4b77be;
+  background-color: white;
+}
+
+/* Button Strip */
+.btn.blue-steel-stripe {
+  border-left: 3px solid #4b77be;
+}
+
+/* Portlet */
+.portlet > .portlet-body.blue-steel,
+.portlet.blue-steel {
+  background-color: #4b77be;
+}
+
+.portlet.solid.blue-steel > .portlet-title,
+.portlet.solid.blue-steel > .portlet-body {
+  border: 0;
+  color: white;
+}
+.portlet.solid.blue-steel > .portlet-title > .caption > i {
+  color: white;
+}
+
+.portlet.box.blue-steel {
+  border: 1px solid #7093cc;
+  border-top: 0;
+}
+.portlet.box.blue-steel > .portlet-title {
+  background-color: #4b77be;
+}
+.portlet.box.blue-steel > .portlet-title > .caption {
+  color: white;
+}
+.portlet.box.blue-steel > .portlet-title > .caption > i {
+  color: white;
+}
+.portlet.box.blue-steel > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #9db5dc;
+  color: #b0c3e3;
+}
+.portlet.box.blue-steel > .portlet-title > .actions .btn-default:hover, .portlet.box.blue-steel > .portlet-title > .actions .btn-default:focus, .portlet.box.blue-steel > .portlet-title > .actions .btn-default:active, .portlet.box.blue-steel > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #c3d2e9;
+  color: #d6e0f0;
+}
+
+/* Statistic Block */
+.dashboard-stat.blue-steel {
+  background-color: #4b77be;
+}
+.dashboard-stat.blue-steel .visual > i {
+  color: white;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.dashboard-stat.blue-steel .details .number {
+  color: white;
+}
+.dashboard-stat.blue-steel .details .desc {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.dashboard-stat.blue-steel .more {
+  color: white;
+  background-color: #416db4;
+}
+
+/* General Element */
+.bg-blue-steel {
+  border-color: #4b77be !important;
+  background-image: none !important;
+  background-color: #4b77be !important;
+  color: white !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-blue-steel {
+  color: #4b77be !important;
+}

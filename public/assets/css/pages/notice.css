@@ -1,0 +1,483 @@
+/***
+Notices Page
+***/
+.notices {
+  margin-bottom: 20px;
+}
+
+.notices .notices {
+  margin-bottom: 0px;
+}
+
+.notices .tab-content {
+  overflow: inherit;
+}
+
+.notices .notices-loading {
+  display: none;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/*Imbox Menu*/
+.notices .notices-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.notices .notices-nav li {
+  position: relative;
+}
+
+.notices .notices-nav li a {
+  color: #4d82a3;
+  display: block;
+  font-size: 15px;
+  border-left: none;
+  text-align: left !important;
+  padding: 8px 14px;
+  margin-bottom: 1px;
+  background: #fef3ee;
+}
+
+.notices .notices-nav li.active a,
+.notices .notices-nav li.active:hover a {
+  color: #fff;
+  border-left: none;
+  background: #FF7671 !important;
+  text-decoration: none;
+}
+
+.notices .notices-nav li.active b {
+  top: 0;
+  right: -4px;
+  width: 8px;
+  height: 35px;
+  position: absolute;
+  display: inline-block;
+  background: url(../../img/notice-arrow-red.png) no-repeat;
+}
+
+.notices .notices-nav li:hover a {
+  color: #4d82a3;
+  background: #fddad5 !important;
+  text-decoration: none;
+}
+
+.notices .notices-nav li.compose-btn a {
+  color: #fff;
+  text-shadow: none;
+  text-align: center;
+  margin-bottom: 18px;
+  background: #d84a38;
+}
+
+.notices .notices-nav li.compose-btn i,
+.notices .notices-nav li.compose-btn:hover i {
+  top: 1px;
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  background: none !important;
+}
+
+.notices .notices-nav li.compose-btn a:hover {
+  background-color: #BB2413 !important;
+}
+
+/*notices Content*/
+.notices .notices-header {
+  overflow: hidden;
+}
+
+.notices .notices-header h1 {
+  margin: 0;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.notices .pagination-control {
+  text-align: right;
+}
+
+.notices .pagination-control .pagination-info {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.notices tr {
+  color: #777;
+  font-size: 10px;
+}
+
+.notices tr label {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.notices tr.unread td{
+  font-weight: 600;
+}
+
+.notices td i.icon-paper-clip {
+  top: 2px;
+  color: #d8e0e5;
+  font-size: 17px;
+  position: relative;
+}
+
+.notices tr i.icon-star,
+.notices tr i.icon-trash {
+  cursor: pointer;  
+}
+
+.notices tr i.icon-star {
+  color: #eceef0;
+}
+
+.notices tr i.icon-star:hover {
+  color: #fd7b12;
+}
+
+.notices tr i.notices-started {
+  color: #fd7b12;  
+}
+
+.notices .table th, 
+.notices .table td {
+  border: none;
+}
+
+.notices .table th {  
+  background: #eef4f7;
+  border-bottom: solid 5px #fff;
+}
+
+.notices th.text-right {
+  text-align: right;
+}
+
+.notices th label.notices-select-all {
+  color: #828f97;
+  font-size: 13px;
+  padding: 1px 4px 0;
+}
+
+.notices ul.notices-nav {
+  margin-bottom: 0;
+}
+
+.notices ul.notices-nav li {
+  padding: 0;
+}
+
+.notices ul.notices-nav li span {
+  color: #828f97;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.notices ul.notices-nav i {
+  color: #fff;
+  padding: 1px 0;
+  font-size: 15px;
+  cursor: pointer; 
+  background: #d0dde4 !important;
+}
+
+.notices ul.notices-nav i:hover {
+  background: #169ef4 !important;
+}
+
+.notices td.text-right {
+  width: 100px;
+  text-align: right;
+}
+
+.notices td.notices-small-cells {
+  width: 10px;
+}
+
+.notices .table-hover tbody tr:hover>td, 
+.notices .table-hover tbody tr:hover>th, 
+.notices .table-striped tbody>tr:nth-child(odd)>td, 
+.notices .table-striped tbody>tr:nth-child(odd)>th {
+  background: #f8fbfd;  
+  cursor: pointer;
+}
+
+.notices .table-hover tbody tr:hover>td, 
+.notices .table-hover tbody tr:hover>th {
+  background: #eef4f7;
+}
+
+/*notices Drafts*/
+.notices .notices-drafts {
+  padding: 8px 0;
+  text-align: center;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+}
+
+/*notices View*/
+.notices-view-header {
+  margin-bottom: 20px;
+}
+
+.notices-view-header h1 {
+  color: #666;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 0 !important;
+}
+
+.notices-view-header h1 a {
+  top: -2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 2px 7px;
+  line-height: 16px;
+  position: relative;
+  background: #b0bcc4;
+  display: inline-block;
+}
+
+.notices-view-header h1 a:hover {
+  background: #aab5bc;
+  text-decoration: none;
+}
+
+.notices-view-header i.icon-print {
+  color: #94a4ab;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  padding: 6px 8px !important;
+  background: #edf1f4 !important;
+}
+
+.notices-view-header i.icon-print:hover {
+  background: #e7ebef !important;
+}
+
+.notices-view-info {
+  color: #666;  
+  padding: 5px 0;
+  margin-bottom: 10px;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+}
+
+.notices-view-info strong {
+  color: #666;
+  margin: 0 10px 0 5px;
+}
+
+.notices-view-info .notices-info-btn {
+  text-align: right;
+}
+
+.notices-view-info .notices-info-btn ul {
+  text-align: left;
+}
+
+.notices-view-info button {
+  top: 2px;
+  color: #94a4ab;
+  font-size: 13px;
+  margin-left: 4px; 
+  padding: 3px 10px;
+  position: relative;
+  background: #edf1f4;
+}
+
+.notices-view-info button:hover {
+  color: #94a4ab;
+  background: #e7ebef;
+}
+
+.notices-view {
+  color: #666;
+  padding: 15px 0 0;
+}
+
+.notices-view a {
+  color: #169ce9;
+}
+
+.notices-attached {
+  line-height: 16px;
+}
+
+.notices-attached a {
+  margin: 0 2px;
+}
+
+.notices-attached img {
+  height: auto;
+  max-width: 250px;
+  margin-bottom: 5px;
+}
+
+.notices-attached span {
+  margin-right: 3px;
+}
+
+.notices-attached strong {
+  color: #555;
+  display: block;
+  font-size: 13px;
+}
+
+.notices-attached .margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
+.notices-attached .margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+
+/*notices Compose*/
+.notices-compose {
+  margin-top: 1px;
+  border: solid 1px #eee;
+}
+
+.notices-compose-btn {
+  padding: 8px 4px;
+  background: #f0f6fa;
+}
+
+.notices-compose-attachment {
+  padding: 8px 8px;
+}
+
+.notices-compose-attachment .btn {
+  padding: 4px 10px;
+}
+
+.notices-compose-btn button {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 4px;
+  padding: 4px 10px;
+  background: #c0cfdd;
+}
+
+.notices-compose-btn button:hover {
+  color: #fff;
+  background: #4d90fe;
+}
+
+.notices-compose-btn button i {
+  margin-right: 3px;
+}
+
+.notices-compose .notices-form-group {
+  margin-bottom: 0;
+/*   position: relative; */
+  border-bottom: solid 1px #eee;
+}
+
+.notices-compose .controls {
+  margin-left: 85px;
+}
+
+.notices-compose .notices-form-group > label {
+  width: 145px;
+  float: left;
+  color: #979797;
+  text-align: right;
+}
+
+.notices-compose .controls > input {
+  border: none !important;
+}
+.notices-compose .controls-to {
+  padding-right: 55px;
+}
+
+.notices-compose .controls-cc {
+  padding-right: 20px;
+}
+
+.notices-compose .controls-bcc {
+  padding-right: 20px;
+}
+
+.notices-compose .notices-form-group a.close {
+  top: 13px;
+  right: 10px;
+  position: absolute;
+}
+
+.notices-compose .mail-to .notices-cc-bcc {
+  display: inline-block;
+  top: 7px;
+  right: 10px;
+  color: #979797;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.notices-compose .mail-to .notices-bcc {
+  margin-left: 5px;
+}
+
+.notices-compose .mail-to notices-cc:hover,
+.notices-compose .mail-to notices-bcc:hover {
+  color: #777;
+}
+
+.notices-compose .wysihtml5 {
+  padding: 0px !important;
+  margin: 0px !important;
+  border: 0 !important;
+}
+
+.notices-compose .wysihtml5-sandbox {
+  padding: 0px !important;
+  margin: 0px !important;
+  display: block !important;
+  border: 0 !important;
+  margin-top: 5px;
+  width: 100% !important;
+  border-left: none;
+  border-right: none;
+  border-color: #eee;
+}
+
+.notices-compose .wysihtml5-toolbar {  
+  border: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.notices-compose .wysihtml5-toolbar > li {
+  height: 34px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.notices-compose .wysihtml5-toolbar > li > a,
+.notices-compose .wysihtml5-toolbar > li > div > a {
+  background: #eee;
+}
+
+.notices-compose .wysihtml5-toolbar .dropdown.open .dropdown-toggle,
+ul.wysihtml5-toolbar a.btn.wysihtml5-command-active {
+  background: #eee !important;
+}
+
+@media (max-width: 480px) {
+
+  .notices-compose .notices-form-group > label {
+    margin-top: 7px;
+  }
+
+}

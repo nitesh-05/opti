@@ -1,0 +1,187 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+} */
+
+.container-home{
+    /* background:linear-gradient(45deg, blueviolet, lightgreen); */
+    padding:30px 9%;
+    padding-bottom: 10px; 
+}
+
+.container-home .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 20px;
+}
+
+.container-home .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container-home .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #f1cccc;
+    text-align: center;
+    padding:10px 5px;
+    
+}
+
+.container-home .box-container .box1{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #9ddbb6;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container-home .box-container .box2{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #caeff9;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container-home .box-container .box img{
+    height: 80px;
+}
+
+.container-home .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container-home .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container-home .box-container .box1 p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container-home .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container-home .box-container .box1 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container-home .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container-home .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+.container-home .box-container .box1:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+.container-home .box-container .box2:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container-home{
+        padding:5px;
+    }
+}
+
+.box-table {
+    border: 1px;
+    border-style: solid;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden; /* This ensures that the rounded corners are visible */
+}
+
+.box-table .row{
+    border: 1px;
+    border-style: solid;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.row-total {
+    font-weight: bold;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    height: 400px; /* Adjust height as needed */
+}
+
+.chart-box {
+    flex: 1;
+    position: relative;
+}
+
+.chart-wrapper {
+    position: absolute;
+    height: 90%;
+    width: 95%;
+}
+
+.currency-format::before {
+    content: '₹';
+}

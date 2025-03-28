@@ -1,0 +1,33 @@
+.container-report {
+    padding: 20px;
+}
+
+.filter-card {
+    margin-bottom: 20px;
+}
+
+.report-card {
+    margin-top: 20px;
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+.report-table th, .report-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: #f4f4f4;
+}
+
+.report-table td {
+    background-color: #fff;
+}

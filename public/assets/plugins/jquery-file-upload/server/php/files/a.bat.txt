@@ -1,0 +1,2 @@
+c:\
+print c:\a.txt
