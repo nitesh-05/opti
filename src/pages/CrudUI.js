@@ -305,7 +305,8 @@ const CrudUI = () => {
 
   // Validate and save new record data
   const handleAddSave = async () => {
-    console.log("newRecordData", newRecordData);
+    const userName = localStorage.getItem("username");
+    newRecordData.created_by = userName;
     // Validate new record data
     for (let key of editableFields) {
       if (!newRecordData[key] || newRecordData[key].trim() === "") {
